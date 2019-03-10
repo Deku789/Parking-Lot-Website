@@ -5,11 +5,19 @@
       <link rel = "stylesheet" href = "parkingCells.css">
   <script type="text/javascript" src="parking.js"></script>
   </head>
-  <body id="h" onload ="generateParkingMap()" style = "background : #f5f5dc">
+  <body id="h" onload ="generateParkingMap()" style = "background : #f5f5dc;">
     helo
     <a href = "Login.html" class = "cell">Link</a>
-    <div id = "mapDiv"></div>
-    <div id = "informationDiv"><button id = "reserveButton">Reserve</button></div>
+
+      <div id = "mapDiv" style="float: left;"></div>
+      <div id = "informationDiv">
+        <button id = "reserveButton">Reserve</button>
+        <div id = "statusDiv"></div>
+      </div>
+
+  <div id = "summaryPane"></div>
+
+
 
   </body>
 </html>
