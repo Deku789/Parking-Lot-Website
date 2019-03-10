@@ -1,0 +1,12 @@
+.cell
+{
+  background-color: #ffffff;
+  text-align: right;
+  height: inherit;
+}
+
+.cell:hover
+{
+  background-color: #ff0000;
+  text-align: left;
+}
