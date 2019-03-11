@@ -1,6 +1,6 @@
 This is a partial implementation for a website for parking lot created using html, css and javascript.
 
-[!Webpage Screenshot](https://github.com/Deku789/Parking-Lot-Website/blob/master/Screenshots/Parking%20Lot%20Screenshot.PNG)
+![Webpage Screenshot](https://github.com/Deku789/Parking-Lot-Website/blob/master/Screenshots/Parking%20Lot%20Screenshot.PNG)
 
 ### Files:
 1. Index.html: This page contains the layout for the webpage. This page has a header, the graphical representation of the parking lot, a panel showing the number of available spots as well as a button to reserve tbe parking lot(To be implemented).
