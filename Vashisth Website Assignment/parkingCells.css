@@ -1,12 +1,46 @@
-.cell
+#headerDiv
 {
-  background-color: #ffffff;
-  text-align: right;
-  height: inherit;
+  background-color: lightblue;
+  padding:30px 10px;
 }
 
-.cell:hover
+#informationDiv
 {
-  background-color: #ff0000;
-  text-align: left;
+  background-color: #00ff00;
+  font-weight: bold;
+  width: 33%;
+  overflow: auto;
+  float: left;
+  clear: left;
+}
+
+#reserveButton
+{
+  padding: 10px;
+}
+
+#mapDiv
+{
+  overflow: auto;
+  /* float: left; */
+  width: 44%;
+}
+
+#statusDiv
+{
+  float: right;
+  width: 80%;
+  text-align: right;
+}
+
+#summaryPane
+{
+  /* float: left; */
+  background-color: lightgrey;
+  box-sizing: border-box;
+  font-weight: 500;
+  border: 2px solid black;
+  overflow: hidden;
+  text-align: center;
+  padding: 10px;
 }
